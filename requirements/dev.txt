@@ -336,7 +336,7 @@ sortedcontainers==2.4.0
     # via
     #   -r requirements/test.txt
     #   hypothesis
-sqlparse==0.4.4
+sqlparse==0.5.0
     # via
     #   -r requirements/test.txt
     #   django
