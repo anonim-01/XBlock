@@ -305,7 +305,7 @@ pyyaml==6.0.1
     #   code-annotations
     #   cookiecutter
     #   xblock
-requests==2.31.0
+requests==2.32.0
     # via
     #   -r requirements/test.txt
     #   cookiecutter
