@@ -31,7 +31,7 @@ certifi==2023.7.22
     # via requests
 charset-normalizer==3.3.2
     # via requests
-django==2.2.28
+django==3.2.25
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/django.txt
@@ -49,13 +49,13 @@ fs-s3fs==1.1.1
     # via
     #   -r requirements/django.txt
     #   openedx-django-pyfs
-idna==3.4
+idna==3.7
     # via requests
 imagesize==1.4.1
     # via sphinx
 importlib-metadata==6.8.0
     # via sphinx
-jinja2==3.1.2
+jinja2==3.1.4
     # via sphinx
 jmespath==1.0.1
     # via
@@ -99,7 +99,7 @@ pytz==2023.3.post1
     #   django
 pyyaml==6.0.1
     # via -r requirements/django.txt
-requests==2.31.0
+requests==2.32.2
     # via sphinx
 s3transfer==0.7.0
     # via
@@ -136,7 +136,7 @@ sphinxcontrib-qthelp==1.0.3
     # via sphinx
 sphinxcontrib-serializinghtml==1.1.5
     # via sphinx
-sqlparse==0.4.4
+sqlparse==0.5.0
     # via
     #   -r requirements/django.txt
     #   django
@@ -156,3 +156,4 @@ zipp==3.17.0
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
