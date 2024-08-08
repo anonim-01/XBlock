@@ -294,3 +294,4 @@ xblock-sdk==0.7.0
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+django>=4.2.15 # not directly required, pinned by Snyk to avoid a vulnerability
