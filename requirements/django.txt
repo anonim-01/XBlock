@@ -68,7 +68,7 @@ urllib3==1.26.18
     # via botocore
 web-fragments==2.1.0
     # via -r requirements/base.txt
-webob==1.8.7
+webob==1.8.8
     # via -r requirements/base.txt
 
 # The following packages are considered to be unsafe in a requirements file:
