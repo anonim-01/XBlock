@@ -398,7 +398,7 @@ web-fragments==2.1.0
     #   -r requirements/test.txt
     #   xblock
     #   xblock-sdk
-webob==1.8.7
+webob==1.8.8
     # via
     #   -r requirements/test.txt
     #   xblock
