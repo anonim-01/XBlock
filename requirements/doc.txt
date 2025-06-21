@@ -142,7 +142,7 @@ sqlparse==0.4.4
     #   django
 typing-extensions==4.8.0
     # via pydata-sphinx-theme
-urllib3==1.26.18
+urllib3==2.5.0
     # via
     #   -r requirements/django.txt
     #   botocore
