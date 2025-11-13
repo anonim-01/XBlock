@@ -96,7 +96,7 @@ distlib==0.3.7
     #   -r requirements/ci.txt
     #   -r requirements/test.txt
     #   virtualenv
-django==2.2.28
+django==4.2.22
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/test.txt
@@ -305,7 +305,7 @@ pyyaml==6.0.1
     #   code-annotations
     #   cookiecutter
     #   xblock
-requests==2.31.0
+requests==2.32.4
     # via
     #   -r requirements/test.txt
     #   cookiecutter
