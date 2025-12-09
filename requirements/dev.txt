@@ -96,7 +96,7 @@ distlib==0.3.7
     #   -r requirements/ci.txt
     #   -r requirements/test.txt
     #   virtualenv
-django==2.2.28
+django==4.2.27
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/test.txt
@@ -336,7 +336,7 @@ sortedcontainers==2.4.0
     # via
     #   -r requirements/test.txt
     #   hypothesis
-sqlparse==0.4.4
+sqlparse==0.5.4
     # via
     #   -r requirements/test.txt
     #   django
@@ -383,7 +383,7 @@ typing-extensions==4.8.0
     #   pydantic-core
     #   pylint
     #   rich
-urllib3==1.26.18
+urllib3==2.6.0
     # via
     #   -r requirements/test.txt
     #   botocore
