@@ -42,7 +42,7 @@ build==1.0.3
     # via
     #   -r requirements/pip-tools.txt
     #   pip-tools
-certifi==2023.7.22
+certifi==2024.7.4
     # via
     #   -r requirements/test.txt
     #   requests
