@@ -30,7 +30,7 @@ botocore==1.31.78
     #   -r requirements/django.txt
     #   boto3
     #   s3transfer
-certifi==2023.7.22
+certifi==2024.7.4
     # via requests
 chardet==5.2.0
     # via binaryornot
