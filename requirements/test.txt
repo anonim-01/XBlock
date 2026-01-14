@@ -90,7 +90,7 @@ fs-s3fs==1.1.1
     #   xblock-sdk
 hypothesis==6.88.1
     # via -r requirements/test.in
-idna==3.4
+idna==3.7
     # via requests
 inflect==7.0.0
     # via jinja2-pluralize
